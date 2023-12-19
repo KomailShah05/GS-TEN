@@ -11416,3 +11416,13 @@ blockquote.vs-quote .quote-author {
 .testi-style2 h3 {
   margin-top: auto !important;
 }
+
+.blog-img img {
+  max-height: 18.75rem;
+  object-fit: cover;
+}
+
+.team-img img {
+  max-height: 18.75rem;
+  object-fit: cover;
+}

@@ -9912,10 +9912,6 @@ fieldset:disabled .btn {
   white-space: nowrap;
 }
 
-.ls-bg {
-  filter: brightness(0.4) !important;
-}
-
 .ls-fullscreen {
   margin: 0 !important;
   padding: 0 !important;
