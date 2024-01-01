@@ -11424,5 +11424,6 @@ blockquote.vs-quote .quote-author {
 
 .team-img img {
   max-height: 18.75rem;
+  height: 18.75rem;
   object-fit: cover;
 }
