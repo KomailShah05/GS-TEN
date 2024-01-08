@@ -9173,6 +9173,9 @@ blockquote.vs-quote .quote-author {
 .vs-brand1.slick-current img {
   filter: grayscale(0) invert(0);
 }
+.cl-brand{
+  height: 3.75rem !important;
+}
 .brand-wrap1 {
   padding: 80px 60px;
   background-color: var(--theme-color);
