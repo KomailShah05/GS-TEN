@@ -522,7 +522,7 @@
     ></script>
 
     <script type="text/javascript">
-      emailjs.init("eJyH5FbR__t3VYN5o");
+      emailjs.init("DDi-WOPDyYEyAIcbs");
     </script>
 
     <script type="text/javascript">
@@ -538,19 +538,16 @@
           const serviceID = "service_kigqtrd";
           const templateID = "template_5e3pa45";
 
-          emailjs
-            .sendForm(serviceID, templateID, "dU9zQLTQbNH9ZQQg8IuXu", this)
-            .then(
-              () => {
-                console.log("serviceId,templateID :>> ", serviceId, templateID);
-                btn.value = "Send Email";
-                alert("Sent!");
-              },
-              (err) => {
-                btn.value = "Send Email";
-                alert(JSON.stringify(err));
-              }
-            );
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = "Send Email";
+              alert("Sent!");
+            },
+            (err) => {
+              btn.value = "Send Email";
+              alert(JSON.stringify(err));
+            }
+          );
         });
     </script>
   </body>
